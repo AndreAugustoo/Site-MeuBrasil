@@ -1,0 +1,127 @@
+	#background
+	{
+		background-color: rgb(255, 255, 255, 0.2)
+	}
+
+
+	body
+	{
+		background-image: url('fundo.jpg');
+		background-repeat: scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-attachment: scroll;
+		position: relative;
+	}
+
+
+	ol
+	{
+		color: white;
+		text-shadow: 1px 1px 7px black;
+	}
+
+	p
+	{
+		color: white;
+		font-size: 20px;
+		text-shadow: 1px 1px 7px black;
+		text-align: justify;
+		text-indent: 50px;
+	}
+
+	h1
+	{
+		color: black;
+		text-align: center;
+		font-size: 40px;
+		box-shadow: 1px  1px 5px black;
+		text-shadow: 1px 1px 5px white;
+
+	}
+
+	nav#menu
+	{
+      display: block;
+
+    } 
+
+	nav#menu ul
+	{
+      list-style: none;
+      text-transform: uppercase;
+      position: absolute;
+      top: 0px;
+      left: 180px;
+      box-shadow: 1px 1px 5px black;
+      margin: 2px;
+      padding: 42px;
+      border-radius: 0px;
+      background-color: rgb(255, 255, 255, 0.2);
+    }
+
+	
+	nav#menu a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+	nav#menu a:hover
+	{
+		color: black;
+		text-decoration: all;
+		text-decoration: underline;
+	}
+
+	nav#menu li
+	{       
+        display: inline;
+        font-size: 20px;
+        margin: 2px;
+        padding: 12px;
+        box-shadow: 1px 1px 10px black;
+        text-shadow: 1px 1px 5px #00b300;
+        border-radius: 7px;
+        background-image: url("logobrasil2.png");
+    }
+
+    nav#menu li:hover
+	{       
+        display: inline;
+        margin: 2px;
+        padding: 15px;
+        box-shadow: 1px 1px 10px white;
+        opacity: 0.9;
+    }
+
+	
+	header img#logo
+	{
+        position: relative;
+        right: -00px;
+        top: 0px;
+        opacity: 1;
+        box-shadow: 5px 5px 20px rgb(0, 102, 0, 1);
+    }
+
+    footer#rodape {
+	clear: both;
+	border-top: 2px black;
+	box-shadow: 1px 1px 50px;
+	}
+
+	footer#rodape a#link {
+	    color: blue;
+	}
+
+	footer#rodape a#link:hover {
+	    color: red;
+	}
+
+	footer#rodape p {
+		text-align: center;
+	    font-size: 9pt;
+	    color: white;
+	    font-family: sans-serif;
+	}
